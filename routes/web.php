@@ -33,14 +33,27 @@ Route::get('/contact', function () {
 Route::get('/home', function () {
     return view('home_v');
 });
-
+// ========================================
 Route::get('/login', function () {
-    return view('login_v');
+    return view('login_v1');
+});
+Route::get('/login karyawan', function () {
+    return view('login_v2');
+});
+Route::get('/login pengawas lapangan', function () {
+    return view('login_v3');
+});
+Route::get('/login admin', function () {
+    return view('login_v4');
+// ===========================================
 });
 Route::get('/register', function () {
     return view('register_v');
 });
-
+// =========================================
+Route::get('/admin', function () {
+    return view('admin_v');
+});
 
 
 //Route::get('home', linkController::class, 'showHome');

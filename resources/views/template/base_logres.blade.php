@@ -16,6 +16,13 @@
     <!-- Style -->
     <link rel="stylesheet" href="{{url ('asset/login/css/style.css')}}">
 
+    <style> 
+   .btn-block .btn-primary a {
+          text-decoration: none;
+          color: #fff;
+      }
+   </style>
+
 
     @yield('title')
   </head>
